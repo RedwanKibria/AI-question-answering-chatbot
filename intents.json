@@ -1,0 +1,243 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?"
+            ],
+            "responses": [
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison."
+            ]
+        },
+        {
+            "tag": "rot",
+            "patterns": [
+                "What is a rot?",
+                "What does rot mean?",
+                "What do you mean by rot?",
+                "What is retention of title?",
+                "What does retention of title mean?"
+            ],
+            "responses": [
+                "A retention of title (ROT) clause is a provision in a contract for the sale of goods which means that the seller retains legal ownership of the goods until certain obligations are fulfilled by the buyer – usually payment of the purchase price."
+            ]
+        },
+        {
+            "tag": "report on title",
+            "patterns": [
+                "What is a report on title?",
+                "What does report on title mean?",
+                "What do you mean by report on title?"
+            ],
+            "responses": [
+                "Report on title means any report on title on the Mortgaged Property addressed and provided at the request of the Agent before the date of this Deed or, in the case of any Mortgaged Property acquired after the date of this Deed, its date of acquisition.",
+                "A title report is a document that outlines the legal status of a property and related information on its ownership. Several key components must be included in a title report. This includes information on the county, zoning laws, property value, and current tax information.",
+                "The report on title is the document that the purchasers’ solicitors produce after they have done all the searches and checks against the property. The Report will be based only on the buyer’s solicitors’ examination and consideration and the results of such searches and enquiries and from material provided to them by the seller."
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "What fees do I need to pay?",
+                "What fees are included in the payment?",
+                "What are the fees I will have to pay?",
+                "What are the charges that I must pay?",
+                "What fees must I pay?"
+            ],
+            "responses": [
+                "Solicitor’s fees, mortgage fees, stamp duty and other costs can add up when buying a home. For more details, visit https://www.zoopla.co.uk/discover/buying/buying-costs/ .",
+                "From Stamp Duty to solicitors’ fees, it’s useful to know what extra costs you’ll have to pay so you can plan your budget when you’re thinking of buying a home. https://www.halifax.co.uk/mortgages/help-and-advice/cost-of-buying-your-first-home.html-. ,here are some of the common costs to consider when house hunting. ",
+                "The costs of moving home can easily add up - the process involves a few fees, many of which can be around your conveyancing. It's good to know what these fees are, and how much they are likely to cost so you can be prepared. https://www.reallymoving.com/conveyancing/guides/explained-solicitors-fees-for-buying-a-house visit here to know more."
+            ]
+        },
+        {
+            "tag": "help_to_buy",
+            "patterns": [
+                "What is help to buy?",
+                "What do you know about help to buy?",
+                "Can you tell me about the help to buy scheme?",
+                "Information about help to buy scheme"
+            ],
+            "responses": [
+                "Help to Buy London allows first time buyers the opportunity to purchase a property for just 5% deposit, with an additional Government-backed loan of up to 40%, interest free for five years*.",
+                "Help to Buy is a home ownership scheme which aims to help first time buyers onto the property ladder in England by providing an equity loan of up to 20% of the value of a new-build home. For more information, https://www.sharetobuy.com/help-to-buy-scheme-changes/ visit here.",
+                "Help to Buy is a government scheme that helps first-time buyers get onto the property ladder with a 5% deposit. It’s available on new-build homes, which can come at a premium cost. For more details, https://www.zoopla.co.uk/schemes/help-to-buy/ visit here."
+            ]
+        },
+        {
+            "tag": "guarantor",
+            "patterns": [
+                "What is a guarantor?",
+                "Who is guarantor?",
+                "What does guarantor mean?",
+                "Tell me about guarantor"
+            ],
+            "responses": [
+                "A guarantor is someone who agrees to pay your rent if you don't pay it. If you don’t pay your landlord what you owe them, they can ask your guarantor to pay instead. If your guarantor doesn’t pay, your landlord can take them to court. For more details, https://www.investopedia.com/terms/g/guarantor.asp visit here.",
+                "A guarantor is a financial term describing an individual who promises to pay a borrower's debt if the borrower defaults on their loan obligation. For more information, https://www.citizensadvice.org.uk/housing/renting-a-home/using-a-guarantor/#:~:text=A%20guarantor%20is%20someone%20who,a%20parent%20or%20close%20relative.&text=The%20agreement%20sets%20out%20the,agreement%2C%20there%20are%20extra%20rules. visit here. ",
+                "A guarantor is an individual who assumes liability for credit on behalf of another person. Essentially the guarantor agrees to take responsibility for repayments if the borrower can no longer afford to make them.",
+                "A guarantor is someone who agrees to be responsible for your rent and your other legal obligations in a tenancy agreement."
+            ]
+        },
+        {
+            "tag": "mortgage",
+            "patterns": [
+                "Where can I get mortgage?",
+                "Who will give me mortgage?",
+                "What to do to get mortgage?",
+                "Do banks offer mortgage?",
+                "How do mortgages work?"
+            ],
+            "responses": [
+                "You can get a mortgage from a wide variety of lenders, including commercial banks, thrift institutions, mortgage loan companies, and credit unions. Such as Lloyds Bank, Barclays Bank, Halifax, Zoopla, etc."
+            ]
+        },
+        {
+            "tag": "estate_agent",
+            "patterns": [
+                "Do I have to use an estate agent?",
+                "Is an estate agent needed?",
+                "Is an estate agent required?",
+                "Do I need an agent?",
+                "Is an agent needed?",
+                "Is an agent required?",
+                "Do I have to use an agent?"
+            ],
+            "responses": [
+                "Hiring an estate agent can be a costly business, but it is possible to sell your house without one. https://www.money.co.uk/guides/how-to-sell-your-house-without-an-estate-agent , here are all the things you need to think about when trying to sell house your without an estate agent.",
+                "It is not necessary to use an estate agent. If you want to sell your house without an estate agent, https://goodmove.co.uk/blog/selling-advice/sell-your-house-without-estate-agent/ this information will help you."
+            ]
+        },
+        {
+            "tag": "borrow",
+            "patterns": [
+                "How much can I borrow?",
+                "How much am I allowed to borrow?",
+                "How much can I take?"
+            ],
+            "responses": [
+                "You can calculate how much you can borrow by using the mortgage calculator, https://trussle.com/new/mortgage-calculator?campaignid=15472246539&adgroupid=130617907437&feeditemid=21442404722&target=dsa-1503142837133&locationinterest=&locationphysical=9046083&matchtype=&network=g&device=c&devicemodel=&mobile=&notmobile=%5bnotmobile%5d&searchnet=%5bsearch%5d&displaynet=&adid=566618956698&keyword=&placement=&adposition=&utm_source=adwords&utm_medium=cpc&gclid=Cj0KCQiAxoiQBhCRARIsAPsvo-xotfrst9sIdfZ39tMkkxRarIt4-j6Rk9NPS2UKO1Iqq6FSlm1_BigaAhL6EALw_wcB ."
+            ]
+        },
+        {
+            "tag": "buy a house",
+            "patterns": [
+                "How long does it take to buy a house?",
+                "How long does it take to acquire a house?",
+                "How long does it take to purchase a house?",
+                "How much  time is going to take to buy a house?",
+                "How much time is going to take to acquire a house?",
+                "How much time is going to take to purchase a house?",
+                "How long will it take to get the keys?",
+                "How much time is going to take to get the keys?"
+            ],
+            "responses": [
+                "Generally, the time it takes to buy a home is six to 12 weeks. But this varies depending on several factors. Take a look at this, https://www.zoopla.co.uk/discover/buying/the-timeline-of-buying-a-home-how-long-is-too-long/ to know more.",
+                "It takes about 6 months to buy a house, however this varies from move to move. On average it's 20-90 days to find a house, 15-30 days to receive a mortgage offer, 20-30 days to find a solicitor and exchange contracts then 10-30 days to complete and get the keys.",
+                "In general, you can expect the entire process – from starting to look for a property, to finally moving into your new home – to take around six months."
+            ]
+        },
+        {
+            "tag": "selling house",
+            "patterns": [
+                "Information about selling?",
+                "What is the process for selling house?",
+                "How do I sell a house?",
+                "Can you tell me about selling house?",
+                "How to sell a house?"
+            ],
+            "responses": [
+                "To get information about selling, https://www.gov.uk/government/publications/how-to-sell-a-home/how-to-sell-a-home visit here.",
+                "Selling your home can be an overwhelming experience. You will find this https://www.yopa.co.uk/homeowners-hub/documents-needed-for-house-sale/ helpful to sell you house.",
+                "This step-by-step guide, https://hoa.org.uk/advice/guides-for-homeowners/i-am-selling/step-by-step-guide-to-selling-your-home/ outlines how to sell a house. It is briefly explained each step you are likely to take during the process of selling your home."
+            ]
+        },
+        {
+            "tag": "offer",
+            "patterns": [
+                "What offer should I make?",
+                "What offer should be made?",
+                "How should I make an offer?"
+            ],
+            "responses": [
+                "Deciding what to offer can be tricky. https://www.zoopla.co.uk/discover/buying/how-to-make-the-right-offer-to-secure-your-new-home/, Here's how to put yourself in a good position when making an offer.",
+                "Once you have found the property of your dreams, the next step is to make an offer. https://www.rightmove.co.uk/guides/buyer/buying-a-property/making-an-offer-on-a-property/, Here's how to put yourself in the best possible position to make an offer.",
+                "Making an offer on a house can be daunting, https://www.comparemymove.com/advice/buying-a-home/making-an-offer-on-a-house, this article will help you to what offer you should make."
+            ]
+        },
+        {
+            "tag": "gazundering",
+            "patterns": [
+                "What is gazundering?",
+                "What do you mean by gazundering?",
+                "What does gazundering mean?"
+            ],
+            "responses": [
+                "The term “gazundering” refers to a home buyer lowering the offer they have agreed with the seller at the last minute, just before contracts are exchanged.",
+                "Gazundering refers to a buyer reducing their offer in the final stages of the transaction just before the exchange of contracts. This leaves the seller with a tricky decision to make; accept the last minute lower offer or put the property back on the market and start the whole process from scratch.",
+                "‘Gazundering’ is a practice whereby a buyer lowers their offer at the last minute, just before contracts are exchanged. Sellers, conscious of the fact refusing the new lower offer could mean they are back at square one and an entire chain falling apart, often feel forced to accept."
+            ]
+        },
+        {
+            "tag": "solicitor",
+            "patterns": [
+                "I need to find a solicitor",
+                "Where can I find a solicitor?",
+                "Where will I get solicitor?",
+                "Find me a solicitor"
+            ],
+            "responses": [
+                "You can find solicitors here, https://solicitors.lawsociety.org.uk/ .",
+                "Visit here https://www.zoopla.co.uk/find-agents/estate-agents/company/solicitor-direct-27023/ , to find solicitor.",
+                "Hopefully you will find your solicitor here, https://www.localsolicitors.com/find-solicitor ."
+            ]
+        }
+    ]
+}
